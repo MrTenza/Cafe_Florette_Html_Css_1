@@ -1,5 +1,4 @@
-/* Classes générique */
-
+/* General */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +8,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 h1,
@@ -17,13 +17,23 @@ h3 {
   margin-bottom: 20px;
 }
 
+a {
+  color: #222;
+  text-decoration: none;
+}
+
 p {
   margin-bottom: 10px;
 }
 
-a {
-  color: #222;
-  text-decoration: none;
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .separator {
@@ -35,10 +45,12 @@ a {
 
 .btn {
   display: inline-block;
+  font-size: 14px;
   padding: 15px 25px;
   border-radius: 30px;
   font-weight: 700;
-  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -51,9 +63,21 @@ a {
   color: white;
 }
 
-.my-10 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
 }
 
 /* Header */
@@ -94,11 +118,10 @@ a {
   background: #444;
 }
 
-/* Vp */
-
+/* value proposition */
 .vp {
   height: 700px;
-  background: url(../images/cafe1.jpg) center center;
+  background: url(/images/cafe.jpg) center center;
   background-size: cover;
   text-align: center;
 }
@@ -107,7 +130,6 @@ a {
   max-width: 600px;
   padding-top: 150px;
   color: white;
-  display: block;
   margin: auto;
 }
 
@@ -119,4 +141,44 @@ a {
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.9em;
+}
+
+/* features */
+
+.features {
+  overflow: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+}
+
+/* person */
+
+.person {
+  height: 400px;
+  background: url(/images/person.jpg) center center/cover;
+}
+
+/* reservation */
+
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
 }
