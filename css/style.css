@@ -143,8 +143,7 @@ p {
 /* value proposition */
 .vp {
   height: 700px;
-  background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe1.jpg)
-    center center;
+  background: url(/images/cafe.jpg) center center;
   background-size: cover;
   text-align: center;
 }
@@ -183,8 +182,7 @@ p {
 
 .person {
   height: 400px;
-  background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe3.jpg)
-    center center/cover;
+  background: url(/images/person.jpg) center center/cover;
 }
 
 /* reservation */
