@@ -150,7 +150,7 @@ a {
 
 .vp {
   height: 700px;
-  background: url(/images/cafe.jpg) center center;
+  background: url(../images/cafe.jpg) center center;
   background-size: cover;
   text-align: center;
 }
@@ -190,7 +190,7 @@ a {
 
 .person {
   height: 400px;
-  background: url(/images/person.jpg) center center/cover;
+  background: url(../images/person.jpg) center center/cover;
 }
 
 /* reservation */
